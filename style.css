@@ -20,19 +20,23 @@ h1 {
     font-family: abril Fatface;
     text-align: center;
 }
+nav {
+    position: sticky;
+    top: 10px;
+}
 ul {
     padding-left:0;
     padding-right: 0;
     text-align: center;
     list-style-type: none;
-    border-top: 1px solid rgba(128,128,128,.2);
-    border-bottom: 1px solid rgba(128,128,128,.2);
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
     font-family: source sans Pro;
     font-size: .75em;
 }
 a:link {
     text-decoration: none;
-    color: rgba(128,128,128,.5);
+    color: #777;
 }
 li {
     display: inline-block;
